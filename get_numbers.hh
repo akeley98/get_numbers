@@ -1,3 +1,6 @@
+#ifndef AKELEY_GET_NUMBERS_HH_
+#define AKELEY_GET_NUMBERS_HH_
+
 #include <ctype.h>
 #include <stdexcept>
 #include <stdlib.h>
@@ -58,3 +61,4 @@ inline Container get_numbers(const std::string& str)
     }
     return numbers;
 }
+#endif // !AKELEY_GET_NUMBERS_HH_
